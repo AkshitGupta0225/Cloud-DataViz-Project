@@ -1,0 +1,6 @@
+- To design an interactive data visualization dashboard  
+- To deploy the system inside a virtual machine  
+- To enable cloud-based remote access to dashboards  
+- To ensure scalability and platform independence  
+- To integrate visualization tools with cloud infrastructure  
+- To understand practical applications of virtualization and cloud computing  
