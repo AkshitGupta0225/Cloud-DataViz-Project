@@ -15,3 +15,6 @@ The visualization system is hosted within a virtual machine. Virtualization ensu
 The cloud layer enables remote access to the dashboards through internet connectivity. Users can access the system from different devices without installing local software.
 
 This layered architecture supports centralized deployment, efficient resource utilization, and scalability while maintaining system reliability.
+
+System Flow Diagram
+The system follows a structured workflow that transforms raw data into meaningful visual insights. The process begins with collecting datasets in CSV format, followed by data cleaning and preprocessing to ensure data quality and consistency. The cleaned dataset is then used within a virtualized Ubuntu environment where Tableau Desktop is used to create visualizations. These visualizations are combined into an interactive dashboard, which can optionally be published to the cloud for sharing and remote access. Raw Dataset (CSV) ↓ Data Cleaning & Preprocessing ↓ Cleaned Dataset ↓ Virtual Machine (Ubuntu) ↓ Tableau Desktop ↓ Charts Creation ↓ Interactive Dashboard ↓ Cloud / Sharing
